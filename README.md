@@ -1,7 +1,7 @@
 # Flickr Image Search using jQuery Ajax
 
 
-# Project Name
+# Image Search
 
 This project demonstrates how to fetch images from Flickr using jQuery Ajax.
 
