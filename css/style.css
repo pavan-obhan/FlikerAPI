@@ -1,0 +1,53 @@
+html {
+  min-height: 100%;
+  background-color: #0769ad;
+  box-shadow: 0 0 8px 4px #06599d inset; }
+
+  body {
+    font-size: 16px;
+    font-family: "Trebuchet MS", Verdana, Arial, sans-serif; }
+
+    #content {
+      overflow: auto;
+      width: 80%;
+      background-color: #fff;
+      margin: 30px auto 0 auto;
+      padding: 20px 30px;
+      border-radius: 8px;
+      -moz-border-radius: 8px;
+      -webkit-border-radius: 8px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap: 10px;
+      }
+
+#form{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+#loadingContainer {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#loadingMessage {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#progressBar {
+  width: 200px;
+  height: 10px;
+  background-color: lightgray;
+  margin: 0 auto;
+}
+
+#progressBarFill {
+  height: 100%;
+  background-color: dodgerblue;
+}
